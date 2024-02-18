@@ -7,6 +7,11 @@
 [![Docker pulls](https://img.shields.io/docker/pulls/twinproduction/gatus.svg)](https://cloud.docker.com/repository/docker/twinproduction/gatus)
 [![Follow TwiN](https://img.shields.io/github/followers/TwiN?label=Follow&style=social)](https://github.com/TwiN)
 
+
+Gatus 是一个面向开发人员的运行状况仪表板，使您能够使用 HTTP、ICMP、TCP 甚至 DNS 查询来监控您的服务，并通过使用状态代码等值的条件列表来评估所述查询的结果，响应时间、证书过期、正文等等。最重要的是，这些运行状况检查中的每一项都可以与通过 Slack、Teams、PagerDuty、Discord、Twilio 等发出的警报配对。
+
+我亲自将它部署在我的 Kubernetes 集群中，并让它监控我的核心应用程序的状态：https ://status.twin.sh/
+
 Gatus is a developer-oriented health dashboard that gives you the ability to monitor your services using HTTP, ICMP, TCP, and even DNS
 queries as well as evaluate the result of said queries by using a list of conditions on values like the status code,
 the response time, the certificate expiration, the body and many others. The icing on top is that each of these health
@@ -116,6 +121,16 @@ Have any feedback or questions? [Create a discussion](https://github.com/TwiN/ga
   - [High level design overview](#high-level-design-overview)
 
 
+在讨论具体细节之前，我想先解决一个最常见的问题：
+
+当我只能使用 Prometheus 的 Alertmanager、Cloudwatch 甚至 Splunk 时，为什么还要使用 Gatus？
+
+如果没有客户端主动调用端点，这些都不能告诉您存在问题。换句话说，这是因为监控指标主要依赖于现有流量，这实际上意味着除非您的客户已经遇到问题，否则您不会收到通知。
+
+另一方面，Gatus 允许您为每个功能配置运行状况检查，这反过来又允许它监视这些功能，并可能在任何客户端受到影响之前向您发出警报。
+
+您可能想要研究 Gatus 的一个迹象是，只需询问自己，如果您的负载均衡器现在停机，您是否会收到警报。您现有的警报会被触发吗？如果没有流量到达您的应用程序，您的指标不会报告错误增加。这会让你陷入这样一种情况：你的客户会通知你服务质量下降，而不是你在他们知道之前向他们保证你正在努力解决问题。
+
 ## Why Gatus?
 Before getting into the specifics, I want to address the most common question:
 > Why would I use Gatus when I can just use Prometheus’ Alertmanager, Cloudwatch or even Splunk?
@@ -132,6 +147,18 @@ was to go down right now. Will any of your existing alerts be triggered? Your me
 if no traffic makes it to your applications. This puts you in a situation where your clients are the ones
 that will notify you about the degradation of your services rather than you reassuring them that you're working on
 fixing the issue before they even know about it.
+
+## 特征
+Gatus的主要特点是：
+
+高度灵活的健康检查条件：虽然检查响应状态对于某些用例来说可能就足够了，但 Gatus 更进一步，允许您添加有关响应时间、响应正文甚至 IP 地址的条件。
+能够使用 Gatus 进行用户验收测试：由于上述几点，您可以利用此应用程序来创建自动化的用户验收测试。
+非常容易配置：不仅配置设计得尽可能可读，而且添加新服务或新端点以进行监控也非常容易。
+警报：虽然拥有漂亮的可视化仪表板对于跟踪应用程序的状态很有用，但您可能不想整天盯着它。因此，开箱即用地支持通过 Slack、Mattermost、Messagebird、PagerDuty、Twilio、Google 聊天和 Teams 发出的通知，并且能够根据您可能有的任何需求配置自定义警报提供程序，无论是不同的提供程序还是自定义应用程序管理自动回滚。
+指标
+资源消耗低：与大多数 Go 应用程序一样，该应用程序所需的资源占用非常小，可以忽略不计。
+徽章：正常运行时间7天 响应时间24小时
+深色模式
 
 ## Features
 The main features of Gatus are:
