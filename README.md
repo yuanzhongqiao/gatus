@@ -836,17 +836,7 @@
   <span class="pl-ent">insecure</span>: <span class="pl-c1">false</span>
   <span class="pl-ent">ignore-redirect</span>: <span class="pl-c1">false</span>
   <span class="pl-ent">timeout</span>: <span class="pl-c1">10s</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="client:
-  insecure: false
-  ignore-redirect: false
-  timeout: 10s" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"></font><code>endpoints[]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，此配置仅在、</font></font><code>alerting.mattermost</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><font style="vertical-align: inherit;">下可用</font></font><code>alerting.custom</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下是客户端配置的示例</font></font><code>endpoints[]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
@@ -859,22 +849,7 @@
       <span class="pl-ent">timeout</span>: <span class="pl-c1">10s</span>
     <span class="pl-ent">conditions</span>:
       - <span class="pl-s"><span class="pl-pds">"</span>[STATUS] == 200<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="endpoints:
-  - name: website
-    url: &quot;https://twin.sh/health&quot;
-    client:
-      insecure: false
-      ignore-redirect: false
-      timeout: 10s
-    conditions:
-      - &quot;[STATUS] == 200&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此示例显示如何指定自定义 DNS 解析器：</font></font></p>
 <div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-ent">endpoints</span>:
@@ -884,20 +859,7 @@
       <span class="pl-ent">dns-resolver</span>: <span class="pl-s"><span class="pl-pds">"</span>tcp://8.8.8.8:53<span class="pl-pds">"</span></span>
     <span class="pl-ent">conditions</span>:
       - <span class="pl-s"><span class="pl-pds">"</span>[STATUS] == 200<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="endpoints:
-  - name: with-custom-dns-resolver
-    url: &quot;https://your.health.api/health&quot;
-    client:
-      dns-resolver: &quot;tcp://8.8.8.8:53&quot;
-    conditions:
-      - &quot;[STATUS] == 200&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此示例展示了如何使用</font></font><code>client.oauth2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置来查询后端 API </font></font><code>Bearer token</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
 <div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-ent">endpoints</span>:
@@ -911,24 +873,7 @@
         <span class="pl-ent">scopes</span>: <span class="pl-s">['https://your.health.api/.default']</span>
     <span class="pl-ent">conditions</span>:
       - <span class="pl-s"><span class="pl-pds">"</span>[STATUS] == 200<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="endpoints:
-  - name: with-custom-oauth2
-    url: &quot;https://your.health.api/health&quot;
-    client:
-      oauth2:
-        token-url: https://your-token-server/token
-        client-id: 00000000-0000-0000-0000-000000000000
-        client-secret: your-client-secret
-        scopes: ['https://your.health.api/.default']
-    conditions:
-      - &quot;[STATUS] == 200&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此示例展示了如何使用 Google Identity-Aware-Proxy</font></font><code>client.identity-aware-proxy</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置来查询后端 API </font></font><code>Bearer token</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
 <div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-ent">endpoints</span>:
@@ -939,21 +884,7 @@
         <span class="pl-ent">audience</span>: <span class="pl-s"><span class="pl-pds">"</span>XXXXXXXX-XXXXXXXXXXXX.apps.googleusercontent.com<span class="pl-pds">"</span></span>
     <span class="pl-ent">conditions</span>:
       - <span class="pl-s"><span class="pl-pds">"</span>[STATUS] == 200<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="endpoints:
-  - name: with-custom-iap
-    url: &quot;https://my.iap.protected.app/health&quot;
-    client:
-      identity-aware-proxy:
-        audience: &quot;XXXXXXXX-XXXXXXXXXXXX.apps.googleusercontent.com&quot;
-    conditions:
-      - &quot;[STATUS] == 200&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <blockquote>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📝 请注意，Gatus 将使用其环境中的</font></font><a href="https://cloud.google.com/docs/authentication/application-default-credentials" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gcloud 默认凭据</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来生成令牌。</font></font></p>
@@ -1127,29 +1058,7 @@
       - <span class="pl-ent">type</span>: <span class="pl-s">discord</span>
         <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>healthcheck failed<span class="pl-pds">"</span></span>
         <span class="pl-ent">send-on-resolved</span>: <span class="pl-c1">true</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  discord:
-    webhook-url: &quot;https://discord.com/api/webhooks/**********/**********&quot;
-
-endpoints:
-  - name: website
-    url: &quot;https://twin.sh/health&quot;
-    interval: 5m
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 300&quot;
-    alerts:
-      - type: discord
-        description: &quot;healthcheck failed&quot;
-        send-on-resolved: true" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <h4 tabindex="-1" dir="auto"><a id="user-content-configuring-email-alerts" class="anchor" aria-hidden="true" tabindex="-1" href="#configuring-email-alerts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置电子邮件警报</font></font></h4>
 <table>
@@ -1263,53 +1172,7 @@ endpoints:
       - <span class="pl-ent">type</span>: <span class="pl-s">email</span>
         <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>healthcheck failed<span class="pl-pds">"</span></span>
         <span class="pl-ent">send-on-resolved</span>: <span class="pl-c1">true</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  email:
-    from: &quot;from@example.com&quot;
-    username: &quot;from@example.com&quot;
-    password: &quot;hunter2&quot;
-    host: &quot;mail.example.com&quot;
-    port: 587
-    to: &quot;recipient1@example.com,recipient2@example.com&quot;
-    client:
-      insecure: false
-    # You can also add group-specific to keys, which will
-    # override the to key above for the specified groups
-    overrides:
-      - group: &quot;core&quot;
-        to: &quot;recipient3@example.com,recipient4@example.com&quot;
-
-endpoints:
-  - name: website
-    url: &quot;https://twin.sh/health&quot;
-    interval: 5m
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 300&quot;
-    alerts:
-      - type: email
-        description: &quot;healthcheck failed&quot;
-        send-on-resolved: true
-
-  - name: back-end
-    group: core
-    url: &quot;https://example.org/&quot;
-    interval: 5m
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[CERTIFICATE_EXPIRATION] > 48h&quot;
-    alerts:
-      - type: email
-        description: &quot;healthcheck failed&quot;
-        send-on-resolved: true" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <blockquote>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚠ 有些邮件服务器速度慢得令人痛苦。</font></font></p>
@@ -1366,32 +1229,7 @@ endpoints:
         <span class="pl-ent">success-threshold</span>: <span class="pl-c1">3</span>
         <span class="pl-ent">send-on-resolved</span>: <span class="pl-c1">true</span>
         <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>Everything's burning AAAAAHHHHHHHHHHHHHHH<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  github:
-    repository-url: &quot;https://github.com/TwiN/test&quot;
-    token: &quot;github_pat_12345...&quot;
-
-endpoints:
-  - name: example
-    url: &quot;https://twin.sh/health&quot;
-    interval: 5m
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 75&quot;
-    alerts:
-      - type: github
-        failure-threshold: 2
-        success-threshold: 3
-        send-on-resolved: true
-        description: &quot;Everything's burning AAAAAHHHHHHHHHHHHHHH&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/TwiN/gatus/blob/master/.github/assets/github-alerts.png"><img src="/TwiN/gatus/raw/master/.github/assets/github-alerts.png" alt="GitHub 警报" style="max-width: 100%;"></a></p>
 <h4 tabindex="-1" dir="auto"><a id="user-content-configuring-gitlab-alerts" class="anchor" aria-hidden="true" tabindex="-1" href="#configuring-gitlab-alerts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置 GitLab 警报</font></font></h4>
@@ -1467,32 +1305,7 @@ endpoints:
         <span class="pl-ent">success-threshold</span>: <span class="pl-c1">3</span>
         <span class="pl-ent">send-on-resolved</span>: <span class="pl-c1">true</span>
         <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>Everything's burning AAAAAHHHHHHHHHHHHHHH<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  gitlab:
-    webhook-url: &quot;https://gitlab.com/hlidotbe/example/alerts/notify/gatus/xxxxxxxxxxxxxxxx.json&quot;
-    authorization-key: &quot;12345&quot;
-
-endpoints:
-  - name: example
-    url: &quot;https://twin.sh/health&quot;
-    interval: 5m
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 75&quot;
-    alerts:
-      - type: gitlab
-        failure-threshold: 2
-        success-threshold: 3
-        send-on-resolved: true
-        description: &quot;Everything's burning AAAAAHHHHHHHHHHHHHHH&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/TwiN/gatus/blob/master/.github/assets/gitlab-alerts.png"><img src="/TwiN/gatus/raw/master/.github/assets/gitlab-alerts.png" alt="亚搏体育appGitLab警报" style="max-width: 100%;"></a></p>
 <h4 tabindex="-1" dir="auto"><a id="user-content-configuring-google-chat-alerts" class="anchor" aria-hidden="true" tabindex="-1" href="#configuring-google-chat-alerts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置 Google 聊天提醒</font></font></h4>
@@ -1558,29 +1371,7 @@ endpoints:
       - <span class="pl-ent">type</span>: <span class="pl-s">googlechat</span>
         <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>healthcheck failed<span class="pl-pds">"</span></span>
         <span class="pl-ent">send-on-resolved</span>: <span class="pl-c1">true</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  googlechat:
-    webhook-url: &quot;https://chat.googleapis.com/v1/spaces/*******/messages?key=**********&amp;token=********&quot;
-
-endpoints:
-  - name: website
-    url: &quot;https://twin.sh/health&quot;
-    interval: 5m
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 300&quot;
-    alerts:
-      - type: googlechat
-        description: &quot;healthcheck failed&quot;
-        send-on-resolved: true" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <h4 tabindex="-1" dir="auto"><a id="user-content-configuring-gotify-alerts" class="anchor" aria-hidden="true" tabindex="-1" href="#configuring-gotify-alerts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置 Gotify 警报</font></font></h4>
 <table>
@@ -1641,30 +1432,7 @@ endpoints:
       - <span class="pl-ent">type</span>: <span class="pl-s">gotify</span>
         <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>healthcheck failed<span class="pl-pds">"</span></span>
         <span class="pl-ent">send-on-resolved</span>: <span class="pl-c1">true</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  gotify:
-    server-url: &quot;https://gotify.example&quot;
-    token: &quot;**************&quot;
-
-endpoints:
-  - name: website
-    url: &quot;https://twin.sh/health&quot;
-    interval: 5m
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 300&quot;
-    alerts:
-      - type: gotify
-        description: &quot;healthcheck failed&quot;
-        send-on-resolved: true" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下是通知的示例：</font></font></p>
 <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/TwiN/gatus/blob/master/.github/assets/gotify-alerts.png"><img src="/TwiN/gatus/raw/master/.github/assets/gotify-alerts.png" alt="通知通知" style="max-width: 100%;"></a></p>
@@ -1723,31 +1491,7 @@ endpoints:
       - <span class="pl-ent">type</span>: <span class="pl-s">matrix</span>
         <span class="pl-ent">send-on-resolved</span>: <span class="pl-c1">true</span>
         <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>healthcheck failed<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  matrix:
-    server-url: &quot;https://matrix-client.matrix.org&quot;
-    access-token: &quot;123456&quot;
-    internal-room-id: &quot;!example:matrix.org&quot;
-
-endpoints:
-  - name: website
-    interval: 5m
-    url: &quot;https://twin.sh/health&quot;
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 300&quot;
-    alerts:
-      - type: matrix
-        send-on-resolved: true
-        description: &quot;healthcheck failed&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <h4 tabindex="-1" dir="auto"><a id="user-content-configuring-mattermost-alerts" class="anchor" aria-hidden="true" tabindex="-1" href="#configuring-mattermost-alerts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置 Mattermost 警报</font></font></h4>
 <table>
@@ -1814,31 +1558,7 @@ endpoints:
       - <span class="pl-ent">type</span>: <span class="pl-s">mattermost</span>
         <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>healthcheck failed<span class="pl-pds">"</span></span>
         <span class="pl-ent">send-on-resolved</span>: <span class="pl-c1">true</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  mattermost:
-    webhook-url: &quot;http://**********/hooks/**********&quot;
-    client:
-      insecure: true
-
-endpoints:
-  - name: website
-    url: &quot;https://twin.sh/health&quot;
-    interval: 5m
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 300&quot;
-    alerts:
-      - type: mattermost
-        description: &quot;healthcheck failed&quot;
-        send-on-resolved: true" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下是通知的示例：</font></font></p>
 <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/TwiN/gatus/blob/master/.github/assets/mattermost-alerts.png"><img src="/TwiN/gatus/raw/master/.github/assets/mattermost-alerts.png" alt="最重要的通知" style="max-width: 100%;"></a></p>
@@ -1899,32 +1619,7 @@ endpoints:
         <span class="pl-ent">failure-threshold</span>: <span class="pl-c1">3</span>
         <span class="pl-ent">send-on-resolved</span>: <span class="pl-c1">true</span>
         <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>healthcheck failed<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  messagebird:
-    access-key: &quot;...&quot;
-    originator: &quot;31619191918&quot;
-    recipients: &quot;31619191919,31619191920&quot;
-
-endpoints:
-  - name: website
-    interval: 5m
-    url: &quot;https://twin.sh/health&quot;
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 300&quot;
-    alerts:
-      - type: messagebird
-        failure-threshold: 3
-        send-on-resolved: true
-        description: &quot;healthcheck failed&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <h4 tabindex="-1" dir="auto"><a id="user-content-configuring-ntfy-alerts" class="anchor" aria-hidden="true" tabindex="-1" href="#configuring-ntfy-alerts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置 Ntfy 警报</font></font></h4>
 <table>
@@ -1989,32 +1684,7 @@ endpoints:
       - <span class="pl-s"><span class="pl-pds">"</span>[RESPONSE_TIME] &lt; 300<span class="pl-pds">"</span></span>
     <span class="pl-ent">alerts</span>:
       - <span class="pl-ent">type</span>: <span class="pl-s">ntfy</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  ntfy:
-    topic: &quot;gatus-test-topic&quot;
-    priority: 2
-    token: faketoken
-    default-alert:
-      failure-threshold: 3
-      send-on-resolved: true
-
-endpoints:
-  - name: website
-    interval: 5m
-    url: &quot;https://twin.sh/health&quot;
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 300&quot;
-    alerts:
-      - type: ntfy" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <h4 tabindex="-1" dir="auto"><a id="user-content-configuring-opsgenie-alerts" class="anchor" aria-hidden="true" tabindex="-1" href="#configuring-opsgenie-alerts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置 Opsgenie 警报</font></font></h4>
 <table>
@@ -2072,16 +1742,7 @@ endpoints:
 <div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-ent">alerting</span>:
   <span class="pl-ent">opsgenie</span>:
     <span class="pl-ent">api-key</span>: <span class="pl-s"><span class="pl-pds">"</span>00000000-0000-0000-0000-000000000000<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  opsgenie:
-    api-key: &quot;00000000-0000-0000-0000-000000000000&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <h4 tabindex="-1" dir="auto"><a id="user-content-configuring-pagerduty-alerts" class="anchor" aria-hidden="true" tabindex="-1" href="#configuring-pagerduty-alerts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置 PagerDuty 警报</font></font></h4>
 <table>
@@ -2168,50 +1829,7 @@ endpoints:
         <span class="pl-ent">success-threshold</span>: <span class="pl-c1">5</span>
         <span class="pl-ent">send-on-resolved</span>: <span class="pl-c1">true</span>
         <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>healthcheck failed<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  pagerduty:
-    integration-key: &quot;********************************&quot;
-    # You can also add group-specific integration keys, which will
-    # override the integration key above for the specified groups
-    overrides:
-      - group: &quot;core&quot;
-        integration-key: &quot;********************************&quot;
-
-endpoints:
-  - name: website
-    url: &quot;https://twin.sh/health&quot;
-    interval: 30s
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 300&quot;
-    alerts:
-      - type: pagerduty
-        failure-threshold: 3
-        success-threshold: 5
-        send-on-resolved: true
-        description: &quot;healthcheck failed&quot;
-
-  - name: back-end
-    group: core
-    url: &quot;https://example.org/&quot;
-    interval: 5m
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[CERTIFICATE_EXPIRATION] > 48h&quot;
-    alerts:
-      - type: pagerduty
-        failure-threshold: 3
-        success-threshold: 5
-        send-on-resolved: true
-        description: &quot;healthcheck failed&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <h4 tabindex="-1" dir="auto"><a id="user-content-configuring-pushover-alerts" class="anchor" aria-hidden="true" tabindex="-1" href="#configuring-pushover-alerts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置 Pushover 警报</font></font></h4>
 <table>
@@ -2279,32 +1897,7 @@ endpoints:
         <span class="pl-ent">success-threshold</span>: <span class="pl-c1">5</span>
         <span class="pl-ent">send-on-resolved</span>: <span class="pl-c1">true</span>
         <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>healthcheck failed<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  pushover:
-    application-token: &quot;******************************&quot;
-    user-key: &quot;******************************&quot;
-
-endpoints:
-  - name: website
-    url: &quot;https://twin.sh/health&quot;
-    interval: 30s
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 300&quot;
-    alerts:
-      - type: pushover
-        failure-threshold: 3
-        success-threshold: 5
-        send-on-resolved: true
-        description: &quot;healthcheck failed&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <h4 tabindex="-1" dir="auto"><a id="user-content-configuring-slack-alerts" class="anchor" aria-hidden="true" tabindex="-1" href="#configuring-slack-alerts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置 Slack 警报</font></font></h4>
 <table>
@@ -2368,36 +1961,10 @@ endpoints:
         <span class="pl-ent">failure-threshold</span>: <span class="pl-c1">5</span>
         <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>healthcheck failed 5 times in a row<span class="pl-pds">"</span></span>
         <span class="pl-ent">send-on-resolved</span>: <span class="pl-c1">true</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="alerting:
-  slack:
-    webhook-url: &quot;https://hooks.slack.com/services/**********/**********/**********&quot;
-
-endpoints:
-  - name: website
-    url: &quot;https://twin.sh/health&quot;
-    interval: 30s
-    conditions:
-      - &quot;[STATUS] == 200&quot;
-      - &quot;[BODY].status == UP&quot;
-      - &quot;[RESPONSE_TIME] < 300&quot;
-    alerts:
-      - type: slack
-        description: &quot;healthcheck failed 3 times in a row&quot;
-        send-on-resolved: true
-      - type: slack
-        failure-threshold: 5
-        description: &quot;healthcheck failed 5 times in a row&quot;
-        send-on-resolved: true" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下是通知的示例：</font></font></p>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/TwiN/gatus/blob/master/.github/assets/slack-alerts.png"><img src="/TwiN/gatus/raw/master/.github/assets/slack-alerts.png" alt="松弛通知" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/TwiN/gatus/blob/master/.github/assets/slack-alerts.png"><img src="https://github.com/TwiN/gatus/raw/master/.github/assets/slack-alerts.png" alt="松弛通知" style="max-width: 100%;"></a></p>
 <h4 tabindex="-1" dir="auto"><a id="user-content-configuring-teams-alerts" class="anchor" aria-hidden="true" tabindex="-1" href="#configuring-teams-alerts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置 Teams 警报</font></font></h4>
 <table>
 <thead>
